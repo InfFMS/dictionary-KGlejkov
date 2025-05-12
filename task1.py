@@ -3,3 +3,6 @@
 # Пример ввода
 # яблоки сливы груши персики манго киви апельсины
 # 34 56 23 89 55 32 11
+keys = input().split()
+values = list(map(int, input().split()))
+print(dict(zip(keys, values)))
